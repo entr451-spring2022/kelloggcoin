@@ -7,14 +7,14 @@
 # with no from_user are from the "ICO" (Initial Coin Offering)
 
 blockchain = [
-  { from_user: nil, to_user: "ben", amount: 20000 },
-  { from_user: nil, to_user: "brian", amount: 20000 },
-  { from_user: "ben", to_user: "evan", amount: 9000 },
-  { from_user: "brian", to_user: "anthony", amount: 7000 },
-  { from_user: "evan", to_user: "anthony", amount: 400 },
-  { from_user: "ben", to_user: "anthony", amount: 1500 },
-  { from_user: "anthony", to_user: "ben", amount: 4500 },
-  { from_user: "anthony", to_user: "evan", amount: 1750 }
+  { "from_user" => nil, "to_user" => "ben", "amount" => 20000 },
+  { "from_user" => nil, "to_user" => "brian", "amount" => 20000 },
+  { "from_user" => "ben", "to_user" => "evan", "amount" => 9000 },
+  { "from_user" => "brian", "to_user" => "anthony", "amount" => 7000 },
+  { "from_user" => "evan", "to_user" => "anthony", "amount" => 400 },
+  { "from_user" => "ben", "to_user" => "anthony", "amount" => 1500 },
+  { "from_user" => "anthony", "to_user" => "ben", "amount" => 4500 },
+  { "from_user" => "anthony", "to_user" => "evan", "amount" => 1750 }
 ]
 
 # Write code below that returns the number of KelloggCoin that each user has in their 
